@@ -7,7 +7,7 @@ function loadlol()
         if table.find(owners, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[✨]' .. Player.DisplayName)--owner emoji
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)--owner emoji
                 end
             end
         end
